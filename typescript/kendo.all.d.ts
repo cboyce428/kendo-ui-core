@@ -9184,6 +9184,7 @@ declare namespace kendo.ui {
     interface PopoverAction {
         text?: string;
         click?: Function;
+        icon?: Function;
         iconClass?: Function;
     }
 
