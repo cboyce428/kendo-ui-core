@@ -193,7 +193,7 @@ The StockChart provides options for [binding it to data]({% slug databinding_sto
 
 ## Events
 
-You can subscribe to all StockChart [events](/api/Kendo.Mvc.UI.Fluent/ChartEventBuilder).
+You can subscribe to all StockChart [events](/api/kendo.mvc.ui.fluent/charteventbuilder).
 
 ### Handling Events by Handler Name
 

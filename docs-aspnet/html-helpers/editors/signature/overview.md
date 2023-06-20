@@ -35,7 +35,7 @@ The following example demonstrates the basic configuration for the Signature.
 
 ## Functionality and Features
 
-* [Image Export]({% slug image_export_telerikui_signature_component %})—You can export the Signature to a PNG file. 
+* [Image Export]({% slug image_export_telerikui_signature_component %})—You can export the Signature to a PNG file.
 * [Form Integration]({% slug form_integration_telerikui_signature_component %})—The Signature allows you to integrate it inside a Telerik UI Form component.
 
 ## Next Steps
@@ -46,4 +46,6 @@ The following example demonstrates the basic configuration for the Signature.
 ## See Also
 
 * [Using the API of the Signature HtmlHelper for {{ site.framework }} (Demo)](https://demos.telerik.com/{{ site.platform }}/signature/api)
+* [Demo Page for the Signature](https://demos.telerik.com/{{ site.platform }}/signature)
+* [API Reference of the Signature](https://docs.telerik.com/{{ site.platform }}/api/kendo.mvc.ui.fluent/signaturebuilder)
 * [Knowledge Base Section](/knowledge-base)

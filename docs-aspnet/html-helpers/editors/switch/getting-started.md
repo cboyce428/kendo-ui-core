@@ -174,7 +174,9 @@ You can continue experimenting with the code sample above by running it in the T
 
 ## Next Steps
 
+{% if site.core %}
 * [Configuring the Switch in Razor Pages]({% slug htmlhelpers_switch_aspnetcore_razor_page %})
+{% endif %}
 * [Customizing the Appearance of the Switch]({% slug switch_appearance %})
 
 ## See Also

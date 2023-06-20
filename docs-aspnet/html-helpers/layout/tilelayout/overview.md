@@ -25,7 +25,7 @@ It is based on the [CSS Grid](https://css-tricks.com/snippets/css/complete-guide
 
 ## Initializing the Tile Layout
 
-To initialize the Tile Layout, specify the number of [`Columns()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutBuilder#columnssystemdouble) at root level and use the [`RowSpan()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutContainerBuilder#rowspansystemdouble) and [`ColSpan()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutContainerBuilder#colspansystemdouble) of the containers to position the content in the available grid space.
+To initialize the Tile Layout, specify the number of [`Columns()`](/api/kendo.mvc.ui.fluent/tilelayoutbuilder#columnssystemdouble) at root level and use the [`RowSpan()`](/api/kendo.mvc.ui.fluent/tilelayoutcontainerbuilder#rowspansystemdouble) and [`ColSpan()`](/api/kendo.mvc.ui.fluent/tilelayoutcontainerbuilder#colspansystemdouble) of the containers to position the content in the available grid space.
 
 The example below will render a grid with two columns which can be resized both vertically and horizontally.
 
@@ -65,17 +65,17 @@ The example below will render a grid with two columns which can be resized both 
 
 ## Grid Layout Configuration 
 
-The Telerik UI TileLayout for {{ site.framework }} available grid space is defined by using the [`Columns()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutBuilder#columnssystemdouble) method. The number of rows in which the tiles will be displayed will automatically adjust. The columns and rows have a default width of `1fr` which can be modified by using the [`ColumnsWidth()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutBuilder#columnswidthsystemstring) and [`RowsHeight()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutBuilder#rowsheightsystemstring) methods.
+The Telerik UI TileLayout for {{ site.framework }} available grid space is defined by using the [`Columns()`](/api/kendo.mvc.ui.fluent/tilelayoutbuilder#columnssystemdouble) method. the number of rows in which the tiles will be displayed will automatically adjust. the columns and rows have a default width of `1fr` which can be modified by using the [`ColumnsWidth()`](/api/kendo.mvc.ui.fluent/tilelayoutbuilder#columnswidthsystemstring) and [`RowsHeight()`](/api/kendo.mvc.ui.fluent/tilelayoutbuilder#rowsheightsystemstring) methods.
 
 > The `RowsHeight()` and `ColumnsWidth()` methods parameter value sets the maximum height/width the rows or columns of the widget will stretch to. Dependent on resizing, content and user interactions with the layout, they may be less than the set value.
 
 ## Tile Layout configuration
 
-Each tile can span across several rows and columns. The space that the tile takes up is determined by its container [`RowSpan()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutContainerBuilder#rowspansystemdouble) and [`ColSpan()`](/api/Kendo.Mvc.UI.Fluent/TileLayoutContainerBuilder#colspansystemdouble). For more information about the containers and their configurable properties, see the [containers]({% slug htmlhelpers_aspnet_tilelayout_containers %}) article.
+Each tile can span across several rows and columns. The space that the tile takes up is determined by its container [`RowSpan()`](/api/kendo.mvc.ui.fluent/tilelayoutcontainerbuilder#rowspansystemdouble) and [`ColSpan()`](/api/kendo.mvc.ui.fluent/tilelayoutcontainerbuilder#colspansystemdouble). for more information about the containers and their configurable properties, see the [containers]({% slug htmlhelpers_aspnet_tilelayout_containers %}) article.
 
 ## Gaps
 
-The grid lines between the rows and columns can be configured by specifying the [`Gap.Columns`](/api/Kendo.Mvc.UI.Fluent/TileLayoutGapSettingsBuilder#columnssystemdouble) for the vertical space between the tiles and the [`Gap.Rows`](/api/Kendo.Mvc.UI.Fluent/TileLayoutGapSettingsBuilder#rowssystemdouble) for the horizontal spacing.
+The grid lines between the rows and columns can be configured by specifying the [`Gap.Columns`](/api/kendo.mvc.ui.fluent/tilelayoutgapsettingsbuilder#columnssystemdouble) for the vertical space between the tiles and the [`Gap.Rows`](/api/kendo.mvc.ui.fluent/tilelayoutgapsettingsbuilder#rowssystemdouble) for the horizontal spacing.
 
 ```HtmlHelper
     .Gap(g=>g.Columns(10).Rows(10))
