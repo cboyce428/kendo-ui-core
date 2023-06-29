@@ -516,4 +516,5 @@ var __meta__ = {
 
     kendo.ui.plugin(Sortable);
 })(window.kendo.jQuery);
+export default kendo;
 

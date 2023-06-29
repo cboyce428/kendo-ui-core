@@ -2197,4 +2197,5 @@ import "./kendo.html.button.js";
         kendo.ui.plugin(Window);
 
     })(window.kendo.jQuery);
+export default kendo;
 

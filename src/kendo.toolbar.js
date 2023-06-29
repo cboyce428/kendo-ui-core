@@ -1845,4 +1845,5 @@ var __meta__ = {
 
     kendo.ui.plugin(ToolBar);
 })(window.kendo.jQuery);
+export default kendo;
 

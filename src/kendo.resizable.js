@@ -188,4 +188,5 @@ var __meta__ = {
     kendo.ui.plugin(Resizable);
 
 })(window.kendo.jQuery);
+export default kendo;
 

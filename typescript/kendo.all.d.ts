@@ -237,6 +237,8 @@ declare namespace kendo {
 
     var ns: string;
 
+    var jQuery: JQuery;
+
     var keys: {
         INSERT: number;
         DELETE: number;

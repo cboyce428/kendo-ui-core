@@ -650,4 +650,5 @@ var __meta__ = {
     kendo.touchDelta = touchDelta;
     kendo.UserEvents = UserEvents;
  })(window.kendo.jQuery);
+export default kendo;
 
