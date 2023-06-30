@@ -1,4 +1,6 @@
-# kendo-jquery-template-app
+# App
+
+This project is created to test out the output the VS Code wizard and see if it works against latest code.
 
 ## Project setup
 ```

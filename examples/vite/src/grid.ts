@@ -1,7 +1,7 @@
-import kendo from '@progress/kendo-ui';
+import '@progress/kendo-ui';
 
 export function setupGrid(element: HTMLElement) {
-    const $ = kendo.jQuery;
+    const $: any = kendo.jQuery;
     $(element).kendoGrid({
         dataSource: {
             data: [

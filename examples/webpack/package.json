@@ -6,13 +6,14 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "serve": "lite-server .",
+    "start": "npm run build && npm run serve",
     "link-npm-pro": "npm link ../../dist/npm-pro"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@progress/kendo-ui": "latest",
+    "@progress/kendo-ui": "dev",
     "jquery": "^3.7.0",
     "lite-server": "^2.6.1",
     "webpack": "^5.88.0",

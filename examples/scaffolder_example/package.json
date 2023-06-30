@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@progress/kendo-ui": "latest",
+    "@progress/kendo-ui": "dev",
     "jquery": "3.6.0"
   },
   "devDependencies": {
